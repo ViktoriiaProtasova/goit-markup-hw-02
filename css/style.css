@@ -17,6 +17,18 @@ body {
   font-size: 16px;
   color: var(--body-text-color);
 }
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
@@ -79,18 +91,6 @@ body {
 .hero-btn:focus {
   color: var(--additional-text-color);
   background-color: var(--pressed-state-color);
-}
-.visually-hidden {
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  border: 0;
-  padding: 0;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  margin: -1px;
 }
 .section-title {
   font-weight: 700;
